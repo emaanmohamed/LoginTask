@@ -20,3 +20,7 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('admin/users/create', 'AdminUsersController');
+
+Route::get('/h', 'HomeController@index');
+Route::get('/m', 'HomeController@index');
+Route::get('/r', 'HomeController@index');
